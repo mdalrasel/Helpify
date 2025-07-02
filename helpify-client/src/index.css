@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.active {
+   text-decoration: underline;
+   font-weight: 700;
+    color: #43a047;
+}
+
+.custom-btn {
+   background: linear-gradient(to  bottom left, #43a047, #66bb6a);
+   padding: 8px 20px;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   font-weight: bold;
+   cursor: pointer;
+
+}
+
+.custom-btn:hover {
+  background: linear-gradient(to bottom left, #66bb6a, #43a047);
+   transform: scale(1.05);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
