@@ -29,7 +29,7 @@ const Navbar = () => {
     const navLink = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/allPost'>Services</NavLink></li>
-         <li><Link to="/about">About</Link></li>,
+         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         {user &&
             <li tabIndex={0}  className="dropdown dropdown-start">

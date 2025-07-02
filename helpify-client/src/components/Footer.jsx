@@ -23,13 +23,10 @@ const Footer = () => {
                             <a href="/about" className="hover:text-white transition-colors">About</a>
                         </li>
                         <li>
-                            <a href="/services" className="hover:text-white transition-colors">Services</a>
+                            <a href="/allPost" className="hover:text-white transition-colors">Services</a>
                         </li>
                         <li>
                             <a href="/contact" className="hover:text-white transition-colors">Contact</a>
-                        </li>
-                        <li>
-                            <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
