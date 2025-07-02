@@ -75,7 +75,7 @@ const AllPost = () => {
                     Discover Meaningful Services
                 </h1>
                 <p
-                    className="text-gray-600 mb-6 max-w-2xl mx-auto"
+                    className=" mb-6 max-w-2xl mx-auto"
                     data-aos="fade-down"
                     data-aos-delay="100"
                 >
