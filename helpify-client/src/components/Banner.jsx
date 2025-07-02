@@ -6,7 +6,7 @@ import { Link } from "react-router";
 const Banner = () => {
   return (
     <div
-      className=" min-h-[50vh]  rounded-2xl bg-cover bg-center flex items-center text-white px-6 mx-4"
+      className=" min-h-[70vh]  rounded-2xl bg-cover bg-center flex items-center text-white px-6 mx-4"
       style={{
         backgroundImage: `url(${banner01})`,
       }}
