@@ -12,6 +12,8 @@ import ServiceToDo from "../pages/services/ServiceToDo";
 import UpdateService from "../pages/services/UpdateService";
 import ManageServices from "../pages/services/ManageServices";
 import BookedServices from "../pages/services/BookedServices";
+import About from "../components/About";
+import Contact from "../components/Contact";
 
 
 export const router = createBrowserRouter([
@@ -71,6 +73,14 @@ export const router = createBrowserRouter([
         path: '/service-to-do',
         element: <PrivateRoute><ServiceToDo /></PrivateRoute>,
         handle: { title: "Service To - Do | Helpify" }
+      },
+      {
+        path:'about',
+        Component:About
+      },
+      {
+        path:'/contact',
+        Component:Contact
       }
     ]
   },
